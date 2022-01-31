@@ -1,8 +1,0 @@
---cpu Cortex-M3
-".\objects\assembly_file1.o"
-".\objects\startup_sam3n.o"
-".\objects\system_sam3n.o"
---strict --scatter ".\Objects\assembly1.sct"
---summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
---info sizes --info totals --info unused --info veneers
---list ".\Listings\assembly1.map" -o .\Objects\assembly1.axf
